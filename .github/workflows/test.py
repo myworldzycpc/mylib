@@ -1,3 +1,7 @@
-import socket
-print(socket.gethostname())
-print(socket.gethostbyname(socket.gethostname()))
+import os
+while True:
+  a=input()
+  if a=="exit":
+    break
+  else:
+    os.system(a)
