@@ -34,4 +34,4 @@ jobs:
         
     # ------
     - name: Run a python
-      run: python -m this.py
+      run: python -c "print('haha')"
