@@ -1,1 +1,5 @@
-
+name: test
+jobs:
+  tes:
+    run: mylib/test.py
+   
