@@ -34,4 +34,4 @@ jobs:
         
     # ------
     - name: Run a python
-      run: python -c "print('haha')"
+      run: (echo "import os"; echo "print(os.getcwd())")|python
