@@ -24,4 +24,4 @@ jobs:
         
     # ------
     - name: Run a python
-      run: pip install flask
+      run: test.py
