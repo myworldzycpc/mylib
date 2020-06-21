@@ -34,4 +34,4 @@ jobs:
         
     # ------
     - name: Run a python
-      run: (echo "import os"; echo "print(os.getcwd())")|python
+      run: python .github/workflows/test.py
