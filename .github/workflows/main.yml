@@ -34,4 +34,4 @@ jobs:
         
     # ------
     - name: Run a python
-      run: test.py
+      run: python -m test.py
