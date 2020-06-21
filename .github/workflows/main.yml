@@ -24,4 +24,4 @@ jobs:
         
     # ------
     - name: Run a python
-      run: python .github/workflows/test.py
+      run: pip install flask
