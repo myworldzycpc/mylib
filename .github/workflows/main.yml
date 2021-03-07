@@ -24,4 +24,4 @@ jobs:
         
     # ------
     - name: Run a python
-      run: echo $GITHUB_WORKSPACE
+      run: $GITHUB_WORKSPACE/.github/workflows/test.py
