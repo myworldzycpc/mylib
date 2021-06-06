@@ -1,3 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def testformny(index, money):
     shouldmny = smtlst[index-1]["money"]
     user = zzrlst[-1]["user"]
